@@ -14,7 +14,7 @@ switched to db ProgrammingStudio
 { "ok" : 1 }
 ```
 <img src="MongoDB.PNG" >
-*Creando la base de datos, la coleccion y insertando algunos documentos.*
+#### Creando la base de datos, la coleccion y insertando algunos documentos.
 
 ## Insertar, modificar y borrar documentos en la colección.
 
