@@ -40,4 +40,11 @@ Descripción actualizada
 >db.Proyecto.update({nombre: "Proyecto02"}, modificacion)
 WriteResult({"nMatched" : 1, "nUpserted" : 0, "nModified" : 1})
 >db.Proyecto.find({nombre: "Proyecto02"})
-{ "_id" : ObjectId("5b0ba91e7bd532f5d790cf44"), "nombre" : "Proyecto02", "descripcion" : "Descripcion
+{ "_id" : ObjectId("5b0ba91e7bd532f5d790cf44"), "nombre" : "Proyecto02", "descripcion" : "Descripcion actualizada"}
+```
+
+### Eliminar:
+```console
+> db.Proyecto.remove({nombre: "Proyecto02"})
+WriteResult({ "nRemoved" : 1 })
+```
