@@ -13,7 +13,7 @@ switched to db ProgrammingStudio
 > db.createCollection("Proyecto")
 { "ok" : 1 }
 ```
-<img src="MongoDB.png" >
+<img src="MongoDB.PNG" >
 Creando la base de datos, la coleccion y insertando algunos documentos.
 
 ## Insertar, modificar y borrar documentos en la colección.
@@ -61,7 +61,7 @@ WriteResult({ "nRemoved" : 1 })
         "ok" : 1
 }
 ```
-<img src="MongoDB_04.png" >
+<img src="MongoDB_04.PNG" >
 Modificando las descripción de un documento y creando un índice en un campo.
 
 ## Realizar consultas en las que utilices, igual, mayor y menor que.
@@ -89,7 +89,7 @@ Muestra por pantalla los Proyectos con mayor presupuesto, ordenados ascendenteme
 { "_id" : ObjectId("5b0bc8ce7bd532f5d790cf47"), "nombre" : "Proyecto06", "descripcion" : "Proyecto en PHP", "presupuesto" : 12000}
 { "_id" : ObjectId("5b0ba8b07bd532f5d790cf43"), "nombre" : "Proyecto01", "descripcion" : "Proyecto en Angular", "presupuesto" : 5000}
 ```
-<img src="MongoDB_03.png" >
+<img src="MongoDB_03.PNG" >
 Modificando las descripción de un documento y creando un índice en un campo.
 Consultas con "Igual que, mayor que y menor que" y consulta ordenada y delimitada.
 
@@ -98,4 +98,4 @@ Muestra por pantalla los proyectos agrupados por sus descripciones y la media de
 ```console
 >db.Proyecto.aggregate([{$group: {_id: "$nombre", "PresupuestoMedio": {$avg: "$presupuesto"}}}])
 ```
-<img src="MongoDB_02.png" >
+<img src="MongoDB_02.PNG" >
