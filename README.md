@@ -14,7 +14,7 @@ switched to db ProgrammingStudio
 { "ok" : 1 }
 ```
 <img src="MongoDB.PNG" >
-#### Creando la base de datos, la coleccion y insertando algunos documentos.
+\\\\\\ Creando la base de datos, la coleccion y insertando algunos documentos.
 
 ## Insertar, modificar y borrar documentos en la colección.
 
@@ -62,7 +62,7 @@ WriteResult({ "nRemoved" : 1 })
 }
 ```
 <img src="MongoDB_04.PNG" >
-*Modificando las descripción de un documento y creando un índice en un campo.*
+\\\\\\ Modificando las descripción de un documento y creando un índice en un campo.
 
 ## Realizar consultas en las que utilices, igual, mayor y menor que.
 
@@ -90,7 +90,7 @@ Muestra por pantalla los Proyectos con mayor presupuesto, ordenados ascendenteme
 { "_id" : ObjectId("5b0ba8b07bd532f5d790cf43"), "nombre" : "Proyecto01", "descripcion" : "Proyecto en Angular", "presupuesto" : 5000}
 ```
 <img src="MongoDB_03.PNG" >
-*Consultas con "Igual que, mayor que y menor que" y consulta ordenada y delimitada.*
+\\\\\\ Consultas con "Igual que, mayor que y menor que" y consulta ordenada y delimitada.
 
 ## Realizar una consulta con agrupamiento y una función para mostrar la media, o suma, o la que tú decidas.
 Muestra por pantalla los proyectos agrupados por sus descripciones y la media de sus presupuestos.
